@@ -49,13 +49,4 @@ public class RationalTest
         Rational answer = new Rational(3, 2);
         assertEquals(answer, rational1.divide(rational2));
     }
-
-    @Test
-    public void threefourthplustwofourth()
-    {
-        Rational rational1 = new Rational(3, 4);
-        Rational rational2 = new Rational(2, 4);
-        Rational rational3 = new Rational(5, 4);
-        assertEquals(rational3, rational1.add(rational2));
-    }
 }
